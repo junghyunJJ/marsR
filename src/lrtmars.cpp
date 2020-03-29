@@ -50,7 +50,7 @@ double fracdmvnorm(mat Z, mat mean, mat R, mat diagC, double NCP, int baseValue)
 }
 
 //[[Rcpp::export]]
-NumericMatrix makeSigmasemiPD(NumericMatrix geno){
+NumericMatrix makesigmasemiPD(NumericMatrix geno){
   Environment pkg = Environment::namespace_env("makesigmasemiPDRcppGSL");
   Function f = pkg["makesigmasemiPDRcppGSL"];
   return f(geno);
@@ -102,7 +102,7 @@ DataFrame computeLRT(NumericMatrix stat, NumericMatrix geno, int subsize = 50, i
   
   // make sigma matrix
   // NumericMatrix sigmaMatrix = makeSigmanearPD(geno_50);
-  NumericMatrix sigmaMatrix = makeSigmasemiPD(geno_50);
+  NumericMatrix sigmaMatrix = makesigmasemiPD(geno_50);
   
   // make tot index 
   // making tot_causalIndex using R because R faster than Rcpp

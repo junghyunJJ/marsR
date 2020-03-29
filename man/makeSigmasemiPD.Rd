@@ -1,11 +1,11 @@
-\name{makesigma}
-\alias{makesigma}
+\name{makesigmasemiPD}
+\alias{makesigmasemiPD}
 \title{positive semidefinite}
 \description{
 Compute the positive semidefinite
 }
 \usage{
-computeLRT(geno)
+makesigmasemiPD(geno)
 }
 \arguments{
   \item{geno}{a m x n numeric matrix}

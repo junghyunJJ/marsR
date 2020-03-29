@@ -5,8 +5,8 @@ scaleC <- function(m) {
     .Call(`_marsR_scaleC`, m)
 }
 
-makeSigmasemiPD <- function(geno) {
-    .Call(`_marsR_makeSigmasemiPD`, geno)
+makesigmasemiPD <- function(geno) {
+    .Call(`_marsR_makesigmasemiPD`, geno)
 }
 
 computeLRT <- function(stat, geno, subsize = 50L, causalCount = 2L, NCP = 5.7, gamma = 0.01) {

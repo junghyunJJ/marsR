@@ -17,14 +17,14 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// makeSigmasemiPD
-NumericMatrix makeSigmasemiPD(NumericMatrix geno);
-RcppExport SEXP _marsR_makeSigmasemiPD(SEXP genoSEXP) {
+// makesigmasemiPD
+NumericMatrix makesigmasemiPD(NumericMatrix geno);
+RcppExport SEXP _marsR_makesigmasemiPD(SEXP genoSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericMatrix >::type geno(genoSEXP);
-    rcpp_result_gen = Rcpp::wrap(makeSigmasemiPD(geno));
+    rcpp_result_gen = Rcpp::wrap(makesigmasemiPD(geno));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -89,7 +89,7 @@ END_RCPP
 
 static const R_CallMethodDef CallEntries[] = {
     {"_marsR_scaleC", (DL_FUNC) &_marsR_scaleC, 1},
-    {"_marsR_makeSigmasemiPD", (DL_FUNC) &_marsR_makeSigmasemiPD, 1},
+    {"_marsR_makesigmasemiPD", (DL_FUNC) &_marsR_makesigmasemiPD, 1},
     {"_marsR_computeLRT", (DL_FUNC) &_marsR_computeLRT, 6},
     {"_marsR_rmvnormC", (DL_FUNC) &_marsR_rmvnormC, 4},
     {"_marsR_dmvnormC", (DL_FUNC) &_marsR_dmvnormC, 4},
