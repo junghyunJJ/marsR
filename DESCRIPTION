@@ -1,0 +1,20 @@
+Package: marsR
+Type: Package
+Title: Leveraging allelic heterogeneity to increase power of association testing
+Version: 0.0.9
+Date: 2020-03-19
+Author: Junghyun Jung
+Maintainer: Junghyun Jung <junghyunjj219@gmail.com>
+Description: Model-based Association test Reflecting causal Status (MARS), 
+             that tries to find an association 
+             between variants in risk loci and a phenotype, 
+             considering the causal status of the variants
+License: GPL (>= 2)
+Imports: 
+  Rcpp (>= 1.0.4),
+  Matrix (>= 1.2-18),
+  data.table(>= 1.12.8),
+  pbmcapply(>= 1.5.0),
+  pbapply(>= 1.4-2),
+  makesigma(>= 0.0.1)
+LinkingTo: Rcpp, RcppArmadillo
