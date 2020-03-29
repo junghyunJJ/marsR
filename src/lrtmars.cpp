@@ -51,8 +51,8 @@ double fracdmvnorm(mat Z, mat mean, mat R, mat diagC, double NCP, int baseValue)
 
 //[[Rcpp::export]]
 NumericMatrix makeSigmasemiPD(NumericMatrix geno){
-  Environment pkg = Environment::namespace_env("makesigma");
-  Function f = pkg["makesigma"];
+  Environment pkg = Environment::namespace_env("makesigmasemiPDRcppGSL");
+  Function f = pkg["makesigmasemiPDRcppGSL"];
   return f(geno);
 }
 

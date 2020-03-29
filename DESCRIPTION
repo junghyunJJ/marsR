@@ -16,5 +16,5 @@ Imports:
   data.table(>= 1.12.8),
   pbmcapply(>= 1.5.0),
   pbapply(>= 1.4-2),
-  makesigma(>= 0.0.1)
+  makesigmasemiPDRcppGSL(>= 0.0.1)
 LinkingTo: Rcpp, RcppArmadillo
