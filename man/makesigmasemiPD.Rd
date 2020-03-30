@@ -19,7 +19,7 @@ Compute the positive semidefinite
 }
 \examples{
 data(testdata)
-makeSigmasemiPD(geno)
+makeSigmasemiPD(testdata$geno)
 }
 \author{Junghyun Jung}
 
