@@ -12,6 +12,8 @@ though individual level data is not available for the study. Utilizing extensive
 power of detecting true associated risk loci compared to previous approaches that consider multiple variants, while robustly controls the type I error. 
 Applied to data of 44 tissues provided by the Genotype-Tissue Expression (GTEx) consortium, we show that MARS identifies more eGenes compared to previous approaches in most of the tissues; e.g. MARS identified 16\% more eGenes than the ones reported by the GTEx consortium. Moreover, applied to Northern Finland Birth Cohort (NFBC) data, we demonstrate that MARS effectively identifies association loci with improved power (56\% of more loci found by MARS) in GWAS studies compared to the standard association test.
 
+## References
+Leveraging allelic heterogeneity to increase power of association testing (https://www.biorxiv.org/content/10.1101/498360v1)
 
 ## Installation
 - The C++ library for GNU [GSL](https://www.gnu.org/software/gsl/) is required.
@@ -47,3 +49,4 @@ $results
   LRT_pvalue univariate_pvalue threshold_pvalue threshold_UNI significance_LRT significance_UNI
 1          0        0.00099551       0.00099551         5e-08             TRUE            FALSE
 ```
+
