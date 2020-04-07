@@ -15,7 +15,8 @@ Applied to data of 44 tissues provided by the Genotype-Tissue Expression (GTEx) 
 
 ## Installation
 - The C++ library for GNU [GSL](https://www.gnu.org/software/gsl/) is required.
-- makesigmasemiPDRcppGSL works only on ***nix (Linux, Unix such as macOS) system**. please check **.Platform$OS.type** function.
+- [makesigmasemiPDRcppGSL](https://github.com/junghyunJJ/makesigmasemiPDRcppGSL) is required.
+- marsR works only on ***nix (Linux, Unix such as macOS) system**. please check **.Platform$OS.type** function.
 - We currently only support R 3.5+.*
 
 ```
@@ -30,6 +31,7 @@ devtools::install_github("junghyunJJ/marsR")
 ## Example
 
 ```
+library(marsR)
 > data(testdata)
 > mars(testdata$stat, testdata$geno, threshold = 5e-08)
 [2020-04-07 09:08:40] - calculating MARS alt LRT
