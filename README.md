@@ -28,7 +28,9 @@ Leveraging allelic heterogeneity to increase power of association testing (https
 - marsR works only on ***nix (Linux, Unix such as macOS) system**. please check **.Platform$OS.type** function.
 - We currently only support R 3.5+.*
 
+
 ```
+install.packages("data.table")
 install.packages("Rcpp")
 install.packages("RcppGSL")
 install.packages("RcppArmadillo")
