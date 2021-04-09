@@ -17,7 +17,6 @@ Applied to data of 44 tissues provided by the Genotype-Tissue Expression (GTEx) 
 <img src="final_overview1.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 
-***
 
 ## References
 Leveraging allelic heterogeneity to increase power of association testing (https://www.biorxiv.org/content/10.1101/498360v1)
