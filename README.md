@@ -1,16 +1,6 @@
 # Leveraging allelic heterogeneity to increase power of association testing
 
-The standard genome-wide association studies (GWAS) detect an association between a single variant and a phenotype of 
-interest. Recently, several studies reported that at many risk loci, there may exist multiple causal variants. For a locus with multiple 
-causal variants with small effect sizes, the standard association test is underpowered to detect the associations. Alternatively, an 
-approach considering effects of multiple variants simultaneously may increase statistical power by leveraging effects of 
-multiple causal variants. In this paper, we propose a new statistical method, Model-based Association test Reflecting causal 
-Status (MARS), that tries to find an association between variants 
-in risk loci and a phenotype, considering the causal status of the variants. One of the main advantages of MARS is that it only requires the 
-existing summary statistics to detect associated risk loci. Thus, MARS is applicable to any association study with summary statistics, even 
-though individual level data is not available for the study. Utilizing extensive simulated data sets, we show that MARS increases the 
-power of detecting true associated risk loci compared to previous approaches that consider multiple variants, while robustly controls the type I error. 
-Applied to data of 44 tissues provided by the Genotype-Tissue Expression (GTEx) consortium, we show that MARS identifies more eGenes compared to previous approaches in most of the tissues; e.g. MARS identified 16\% more eGenes than the ones reported by the GTEx consortium. Moreover, applied to Northern Finland Birth Cohort (NFBC) data, we demonstrate that MARS effectively identifies association loci with improved power (56\% of more loci found by MARS) in GWAS studies compared to the standard association test.
+In standard genome-wide association studies (GWAS), the standard association test is underpowered to detect associations between loci with multiple causal variants with small effect sizes. We propose a statistical method, Model-based Association test Reflecting causal Status (MARS), that finds associations between variants in risk loci and a phenotype, considering the causal status of variants, only requiring the existing summary statistics to detect associated risk loci. Utilizing extensive simulated data and real data, we show that MARS increases the power of detecting true associated risk loci compared to previous approaches that consider multiple variants, while controlling the type I error.
 
 
 
