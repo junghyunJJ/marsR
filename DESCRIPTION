@@ -1,7 +1,7 @@
 Package: marsR
 Type: Package
 Title: Leveraging allelic heterogeneity to increase power of association testing
-Version: 0.0.9
+Version: 0.1.0
 Date: 2020-03-19
 Author: Junghyun Jung
 Maintainer: Junghyun Jung <junghyunjj219@gmail.com>
