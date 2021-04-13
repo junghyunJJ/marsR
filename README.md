@@ -1,5 +1,4 @@
-[![DOI](https://zenodo.org/)](https://zenodo.org/)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4679205.svg)](https://doi.org/10.5281/zenodo.4679205)
 
 # MARS: Leveraging allelic heterogeneity to increase power of association testing
 
