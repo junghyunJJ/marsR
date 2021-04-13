@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/)](https://zenodo.org/)
+
+
 # Leveraging allelic heterogeneity to increase power of association testing
 
 In standard genome-wide association studies (GWAS), the standard association test is underpowered to detect associations between loci with multiple causal variants with small effect sizes. We propose a statistical method, Model-based Association test Reflecting causal Status (MARS), that finds associations between variants in risk loci and a phenotype, considering the causal status of variants, only requiring the existing summary statistics to detect associated risk loci. Utilizing extensive simulated data and real data, we show that MARS increases the power of detecting true associated risk loci compared to previous approaches that consider multiple variants, while controlling the type I error.
