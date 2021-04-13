@@ -1,6 +1,6 @@
 Package: marsR
 Type: Package
-Title: Leveraging allelic heterogeneity to increase power of association testing
+Title: MARS: Leveraging allelic heterogeneity to increase power of association testing
 Version: 1.0.0
 Date: 2021-04-11
 Author: Junghyun Jung
