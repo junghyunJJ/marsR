@@ -11,7 +11,8 @@ In standard genome-wide association studies (GWAS), the standard association tes
 
 
 ## References
-MARS: Leveraging allelic heterogeneity to increase power of association testing (https://www.biorxiv.org/content/10.1101/498360v1)
+MARS: leveraging allelic heterogeneity to increase power of association testing. *Genome Biol* **22**, 128 (2021). [[Links](https://doi.org/10.1186/s13059-021-02353-8)]
+
 
 ## Installation
 - The C++ library for GNU [GSL](https://www.gnu.org/software/gsl/) is required.
